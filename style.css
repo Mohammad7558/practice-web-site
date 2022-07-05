@@ -24,7 +24,7 @@ body{
 }
 .half-width h4{
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 400;
     padding-bottom: 5%;
 }
 .half-width img{
@@ -37,4 +37,25 @@ body{
     color: #fff;
     border-radius: 50px;
     box-shadow: 0 0 20px orange;
+}
+
+#seconde-section{
+    margin: 100px 0;
+    background-image: url(eat-healthy-main/images/shapes/7.png);
+    background-repeat: no-repeat;
+    padding: 80px 0 0 0;
+}
+.female-img img{
+    width: 50%;
+}
+.female-img{
+    margin-left: 10%;
+}
+.col-two p{
+    padding: 0  0 7% 0;
+    line-height: 25px;
+}
+.col-two{
+    margin-right: 5%;
+    margin-top: 2%;
 }
