@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    margin-left: 5%;
+}
+.half-width{
+    width: 50%;
+}
+.colum-one{
+    margin-top: 120px;
+}
+.half-width h1{
+    font-size: 40px;
+    line-height: 30px;
+}
+.colorfull{
+    color: orange;
+}
+.half-width h4{
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 20px orange;
+}
