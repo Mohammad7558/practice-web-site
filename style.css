@@ -59,3 +59,27 @@ body{
     margin-right: 5%;
     margin-top: 2%;
 }
+.main-text h1{
+    text-align: center;
+    font-size: 40px;
+}
+.main-text p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.third-col-one{
+    box-shadow: 0 0 20px gray;
+    margin-right: 30px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.third-container{
+    width: 80%;
+    margin: auto;
+}
+.third-col-one img{
+    width: 100%;
+}
+.third-col-one h1{
+    font-size: 27px;
+}
