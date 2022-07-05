@@ -74,3 +74,19 @@ body{
 .box-desing img{
     width: 100%;
 }
+#four-section{
+    margin: 80px 0;
+}
+.four-section{
+    box-shadow: 0 0 20px lightgray;
+    justify-content: space-between;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 40px 10%;
+}
+.list-item h1{
+    font-size: 40px;
+    line-height: 25px;
+}
