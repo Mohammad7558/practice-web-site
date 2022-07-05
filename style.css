@@ -52,3 +52,25 @@ body{
     padding: 2% 0 7% 0;
     line-height: 25px;
 }
+.flexible-container-2 h1{
+    font-size: 30px;
+}
+.outsite-text{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.outsite-text p{
+    line-height: 25px;
+}
+.box-desing{
+    box-shadow: 0 0 20px lightgray;
+    padding: 25px;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+#box-desing-two{
+    margin-right: 0;
+}
+.box-desing img{
+    width: 100%;
+}
