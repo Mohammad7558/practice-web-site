@@ -4,122 +4,51 @@ body{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
 .container{
+    width: 80%;
+    margin: auto;
     display: flex;
-    margin-left: 5%;
 }
 .half-width{
     width: 50%;
 }
-.colum-one{
-    margin-top: 120px;
+.half-width img{
+    width: 96%;
 }
-.half-width h1{
+.colorfull-text{
+    color: orange;
+}
+.flexible-container{
+    margin-top: 10%;
+}
+.flexible-container h1{
     font-size: 40px;
     line-height: 30px;
 }
-.colorfull{
-    color: orange;
-}
-.half-width h4{
-    font-size: 17px;
-    font-weight: 400;
-    padding-bottom: 5%;
-}
-.half-width img{
-    width: 80%;
+.flexible-container p{
+    line-height: 25px;
+    padding: 1% 0 7% 0;
 }
 .btn{
     text-decoration: none;
-    background-image: linear-gradient(tomato, orange);
     padding: 15px 30px;
     color: #fff;
+    background-image: linear-gradient(tomato, orange);
     border-radius: 50px;
     box-shadow: 0 0 20px orange;
 }
-
 #seconde-section{
-    margin: 100px 0;
     background-image: url(eat-healthy-main/images/shapes/7.png);
     background-repeat: no-repeat;
-    padding: 80px 0 0 0;
+    background-size: cover;
+    background-position: left;
+    margin: 150px 0;
+    padding: 5% 0 0 0;
 }
-.female-img img{
+.female img{
     width: 50%;
 }
-.female-img{
-    margin-left: 10%;
-}
-.col-two p{
-    padding: 0  0 7% 0;
+.flexible-container-2 p{
+    padding: 2% 0 7% 0;
     line-height: 25px;
-}
-.col-two{
-    margin-right: 5%;
-    margin-top: 2%;
-}
-.main-text h1{
-    text-align: center;
-    font-size: 40px;
-}
-.main-text p{
-    text-align: center;
-    padding-bottom: 50px;
-    line-height: 25px;
-}
-.third-col-one{
-    box-shadow: 0 0 20px lightgray;
-    margin-right: 30px;
-    padding: 30px;
-    border-radius: 30px;
-}
-.third-container{
-    width: 80%;
-    margin: auto;
-}
-.third-col-one img{
-    width: 100%;
-}
-.third-col-one h1{
-    font-size: 27px;
-}
-#delet-margin{
-    margin-right: 0;
-}
-#four-section{
-    width: 80%;
-    margin: 100px auto;
-    padding: 30px 0;
-    box-shadow: 0 0 20px lightgray;
-    border-radius: 15px;
-}
-.four-container{
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-}
-.list-no-one{
-    padding-left: 10%;
-}
-.list-no-three{
-    padding-right: 10%;
-}
-.text h1{
-    font-size: 35px;
-    line-height: 25px;
-}
-footer{
-    background: #000;
-    text-align: center;
-    padding: 30px 0;
-}
-.footer-color-text{
-    color: orange;
-}
-footer h1{
-    color: #fff;
-}
-footer p{
-    color: #fff;
 }
