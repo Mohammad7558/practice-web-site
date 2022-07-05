@@ -65,7 +65,8 @@ body{
 }
 .main-text p{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    line-height: 25px;
 }
 .third-col-one{
     box-shadow: 0 0 20px gray;
@@ -82,4 +83,43 @@ body{
 }
 .third-col-one h1{
     font-size: 27px;
+}
+#delet-margin{
+    margin-right: 0;
+}
+#four-section{
+    width: 80%;
+    margin: 100px auto;
+    padding: 30px 0;
+    box-shadow: 0 0 20px lightgray;
+    border-radius: 15px;
+}
+.four-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.list-no-one{
+    padding-left: 10%;
+}
+.list-no-three{
+    padding-right: 10%;
+}
+.text h1{
+    font-size: 35px;
+    line-height: 25px;
+}
+footer{
+    background: #000;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer-color-text{
+    color: orange;
+}
+footer h1{
+    color: #fff;
+}
+footer p{
+    color: #fff;
 }
